@@ -1,16 +1,44 @@
-### Hi there 👋
+### Hi there 👋, Welcome to my Poor Repo! Nothing you can find here.
 
-<!--
-**mragungsetiaji/mragungsetiaji** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```python
+import logging
 
-Here are some ideas to get you started:
+class ReadMe:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    def __init__(self, username="mragungsetiaji"):
+        self.username = username
+        self.name = 'A.S.'
+        self.education = {
+            'mathematic': ['Bachelor of Mathematic', 'YSU']
+        }
+        self.employment = {
+            'data-department': ['Data Scientist', 'Data Engineer']
+        }
+        self.language: ["Python", "SQL", "Scala"],
+        self.framework: {,
+            'API': ["flask", "fastAPI],
+            'ML': ["scikit-learn", "tensorflow"],
+        },
+        databases: ["BigQuery"],
+    },
+    
+    @classmethod
+    def daily_activity() -> None:
+        
+        activities = [
+            'Reading Medium',
+            'Upgrading Data Framework',
+            'Making notes with Bear',
+            'Finding Vulnerability using ParrotOS',
+            'Sleeping',
+        ]
+        
+        while True:
+            for activity in activities:
+                logging.debug("I am {}".format(activity))
+                
+if __name__ == "__main__":
+     me = ReadMe()
+```
+
+
