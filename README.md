@@ -15,7 +15,7 @@ class ReadMe:
             'data-department': ['Data Scientist', 'Data Engineer']
         }
         self.language: ["Python", "SQL", "Scala"],
-        self.framework: {,
+        self.framework: {
             'API': ["flask", "fastAPI],
             'ML': ["scikit-learn", "tensorflow"],
         },
