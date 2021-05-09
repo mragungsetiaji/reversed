@@ -26,11 +26,7 @@ class ReadMe:
     def daily_activity() -> None:
         
         activities = [
-            'Reading Medium',
-            'Upgrading Data Framework',
-            'Making notes with Bear',
-            'Finding Vulnerability using ParrotOS',
-            'Sleeping',
+            'HODL',
         ]
         
         while True:
